@@ -1,0 +1,19 @@
+{
+  "name": "learnings",
+  "version": "1.0.0",
+  "description": "typescript at the console stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node index.ts",
+    "bar": "npx ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23"
+  }
+}
